@@ -10,7 +10,10 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         .catch(error => console.error('Error:', error));
 });
 window.onload = function () {
-    fetch('php/get_projects.php')
+    fetch('php/get_projects.php',{
+        method: 'GET',
+        body: null
+    })
         .then(response => response.json())
         .then(data => {
             const container = document.getElementById('projects-containers');
