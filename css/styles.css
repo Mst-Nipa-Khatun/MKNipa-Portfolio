@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+}
+
+
+#projects h2{
+    text-transform: uppercase!important;
+    color: blue;
+    /*text-decoration: underline;*/
+    font-family: Arial, sans-serif;
+}
+#VideoPortfolio{
+    float: left;
+    text-transform: uppercase!important;
+    color: blue;
+    /*text-decoration: underline;*/
+    font-family: Arial, sans-serif;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}

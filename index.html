@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="./css/bootstrap.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Your one-stop solution for all creative designs and web solutions.</p>
+</section>
+
+<section id="about">
+    <h2 style="
+    text-transform: uppercase;
+    color: blue;
+    font-family: Arial, sans-serif;">About Me</h2>
+    <p>Hi, Myself is <b>MST NIPA KHATUN</b>. I'm a passionate web developer with a keen eye for detail and a love for creating innovative solutions.
+        I am seeking an opportunity to begin my career in a reputable organization to expand my
+        knowledge and skills, while making a significant contribution to the success of the company.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="row" id="projects-containers">
+        <!-- Projects will be dynamically loaded here -->
+    </div>
+</section>
+
+
+<section id="contact" class="bg-light">
+    <div class="row">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form id="contactForm" class="mx-auto" style="max-width: 600px;">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" id="name" name="name"
+                               placeholder="Enter your name."
+                               class="form-control" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="Enter your email"
+                               class="form-control" required>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea id="message" name="message"
+                                  placeholder="Enter your message"
+                                  class="form-control" rows="5" required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary w-100">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+<footer>
+    <p>&copy; 2025 MST NIPA KHATUN. All rights reserved.</p>
+</footer>
+</body>
+</html>
