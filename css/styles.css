@@ -31,19 +31,10 @@ section {
 
 #projects h2{
     text-transform: uppercase!important;
-    color: blue;
+    color: #041c40;
     /*text-decoration: underline;*/
     font-family: Arial, sans-serif;
 }
-#VideoPortfolio{
-    float: left;
-    text-transform: uppercase!important;
-    color: blue;
-    /*text-decoration: underline;*/
-    font-family: Arial, sans-serif;
-}
-
-
 
 footer {
     text-align: center;
