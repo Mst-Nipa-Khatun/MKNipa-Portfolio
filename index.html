@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link href="./css/bootstrap.min.css"
-          rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <!--@INFO about [defer] in script file...
+
+    The defer attribute is used in the <script> tag to ensure that the JavaScript
+        file (js/script.js in this case) is executed after the HTML document has been fully parsed.
+            Here are the key benefits of using defer:
+
+    Non-blocking: When the defer attribute is used, the browser will download the script file in the
+        background while it continues to parse the HTML document. This prevents the script from blocking the rendering of the page, resulting in faster page load times.
+
+    Preserves Execution Order: Scripts with the defer attribute are executed in the order
+        they appear in the document, which is important if you have multiple scripts that depend on each other.
+
+    Waits for HTML Parsing: The script will only execute after the entire HTML document has been parsed,
+        ensuring that the DOM is fully available for manipulation.
+    -->
     <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -29,7 +43,7 @@
 <section id="about">
     <h2 style="
     text-transform: uppercase;
-    color: blue;
+    color: #041c40;
     font-family: Arial, sans-serif;">About Me</h2>
     <p>Hi, Myself is <b>MST NIPA KHATUN</b>. I'm a passionate web developer with a keen eye for detail and a love for
         creating innovative solutions.
@@ -86,9 +100,10 @@
 
 </section>
 
-
+<section>
 <footer>
     <p>&copy; 2025 MST NIPA KHATUN. All rights reserved.</p>
 </footer>
+</section>
 </body>
 </html>
